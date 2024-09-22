@@ -14,6 +14,12 @@ public class IndexofFirstOccurence{
         }
         return -1;
             }
+            // or u can directly made it through predefined function
+
+            public static int firstOccurence(String haystack,String needle){
+                return haystack.indexOf(needle);
+            }
+            
     public static void main(String[] args){
 
     }
