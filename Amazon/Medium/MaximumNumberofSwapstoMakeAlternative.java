@@ -13,6 +13,7 @@ public class MaximumNumberofSwapstoMakeAlternative {
                 count1++;
             }
         }
+        
         if(Math.abs(count0 - count1) > 1){
             return -1;
         }
