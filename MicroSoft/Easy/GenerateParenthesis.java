@@ -1,3 +1,7 @@
+package MicroSoft.Easy;
+
+import java.util.*;
+
 public class GenerateParenthesis {
     public void helper(List<String> ans,int Ocount,int Ccount,String str,int n){
         if(Ocount == n && Ccount == n){
