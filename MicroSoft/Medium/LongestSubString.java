@@ -1,3 +1,5 @@
+package MicroSoft.Medium;
+import java.util.*;
 public class LongestSubString {
     public int lengthOfLongestSubstring(String s) {
         int[] freq = new int[256];
