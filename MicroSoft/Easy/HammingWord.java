@@ -1,3 +1,4 @@
+package MicroSoft.Easy;
 public class HammingWord{
     public int hammingWeight(int n) {
         int count = 0;
