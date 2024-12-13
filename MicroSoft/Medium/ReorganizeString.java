@@ -12,7 +12,7 @@ public class ReorganizeString {
         for(int i=0;i<26;i++){
             if(freq[i]>0){
                 pq.offer(new int[]{i+'a',freq[i]});
-            }
+  G          }
         }
         
         StringBuilder str = new StringBuilder();
