@@ -1,3 +1,6 @@
+package Google.Easy;
+
+
 public class GcdOfString {
     public String gcdOfStrings(String str1, String str2) {
         
