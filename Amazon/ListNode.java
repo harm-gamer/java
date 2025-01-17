@@ -5,7 +5,7 @@ package Amazon;
          ListNode() {}
          ListNode(int val) { this.val = val; }
          ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     }
+     
 public class PartitionList{
     public ListNode partition(ListNode head, int x) {
         ListNode before_head = new ListNode(0);
@@ -31,3 +31,4 @@ public class PartitionList{
         return before_head.next;
     }
 }
+ }

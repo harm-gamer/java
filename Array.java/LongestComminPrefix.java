@@ -1,3 +1,4 @@
+
 public class LongestComminPrefix{
      public String longestCommonPrefix(String[] strs) {
         if(strs == null & strs.length==0){

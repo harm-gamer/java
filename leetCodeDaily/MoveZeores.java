@@ -1,7 +1,7 @@
 package leetCodeDaily;
 
 public class MoveZeores {
-    public void moveZeroes(int[] nums) {
+   static public void moveZeroes(int[] nums) {
       
         int i =0;
   
@@ -16,5 +16,10 @@ public class MoveZeores {
           nums[j] = 0;
         }
         
+      }
+
+      public static void main(String[] args){
+        int nums[] ={ 1,0,3,0,5};
+        moveZeroes(nums);
       }
 }

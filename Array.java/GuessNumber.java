@@ -13,7 +13,7 @@ public class GuessNumber {
       
       while(start<=end){
           int mid = start + (end-start)/2;
-         int guessed = guess(mid);
+         int guessed = guessNumber(mid);
           
           if(guessed == 0)return mid;
           else if(guessed == -1) end = mid -1;
